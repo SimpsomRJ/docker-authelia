@@ -1,2 +1,2 @@
 FROM authelia/authelia:4.21.0
-RUN apk update && apk upgrade
+RUN apk update && apk --no-cache upgrade
